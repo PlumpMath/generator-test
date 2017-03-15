@@ -1,0 +1,12 @@
+* C++ coroutine std::generator test
+
+** requirements
+
+- /await keyword
+- Visual Studio 2015 Update3 or 2017
+
+** references
+- http://kirkshoop.github.io/async/rxcpp/await/c++/2015/03/17/await-in-c++-yield-the-next.html
+- https://blogs.msdn.microsoft.com/vcblog/2014/11/12/resumable-functions-in-c/
+- http://www.geeksforgeeks.org/sieve-of-eratosthenes/
+
