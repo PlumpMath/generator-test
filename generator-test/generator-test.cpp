@@ -39,7 +39,7 @@ ex::generator<T> fibonacci2() {
 template <typename T>
 ex::generator<T> SieveOfEratosthenes(T upperBound) {
 	bool* isPrime = new bool[upperBound + 1];
-	memset(isPrime, true, sizeof(bool) * upperBound);
+	memset(isPrime, true, sizeof(bool) * (upperBound + 1));
 
 	for (T p = 2; p*p <= upperBound; p++) {
 		if (isPrime[p]) {
